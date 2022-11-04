@@ -1,0 +1,23 @@
+package WeekHomeWork4;
+
+import java.util.Scanner;
+
+public class Programme_6_NumberTriangle {
+    public static void numTTriange(int n ){
+        for (int i= 0; i<=n; i++){
+            for (int j = 0; j <i;j++){
+                System.out.println(j+1);
+
+            }
+            System.out.println("");
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Input number of row");
+        numTTriange(scanner.nextInt());
+        scanner.close();
+    }
+
+}
